@@ -36,7 +36,7 @@ const AgoraClient = () => {
     const [isHost, setIshost] = useState(false);
     const [loading, setLoading] = useState(false);
 
-    const [audienceID, setAudienceId] = useState<number>(generateUid());
+    const audienceID = generateUid();
 
 
     const localAudioTrackRef = useRef<IMicrophoneAudioTrack | null>(null);
