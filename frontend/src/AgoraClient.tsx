@@ -14,7 +14,7 @@ import type {
 type Role = 'host' | 'audience';
 
 const appId = import.meta.env.VITE_AGORA_APP_ID;
-const channel = import.meta.env.VITE_AGORA_CHANNEL || 'queenlive';
+const channel = 'queenlive';
 
 
 const generateUid = () => {
